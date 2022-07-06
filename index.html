@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheets" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=family=Gulzar:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Donation</title>
 </head>
 <body>
@@ -18,40 +21,40 @@
     </section>
 
     <section id="second-section">
-       <h2>Donate Today </h2>
+       <h3>Donate Today </h3>
        <p>Your danation can help millions of people's happiness.It can bring a light for help.</p>
-       <div>
-        <h3>100tk</h3>
-        <h3>200tk</h3>
-        <h3>500tk</h3>
-        <h3>1000tk</h3>
-        <h3>5000tk</h3>
+       <div class="taka">
+        <h5>100tk</h5>
+        <h5 id="unique">200tk</h5>
+        <h5>500tk</h5>
+        <h5>1000tk</h5>
+        <h5>5000tk</h5>
        </div>
 
-       <div>
-        <p>Othe amount(Taka)</p>
-        <hr>
+       <div id="amount">
+        <p>Othe amount(Taka)</p><p id="line">________________</p>
+        
        </div>
        <button class="donate-btn">Donate Now</button>
 
     </section>
 
     <section id="third-section">
-        <h2>Our Donation Plan</h2>
+        <h3>Our Donation Plan</h3>
         <p>At first We want to donate our money to the eldest person and the most poor and needy family who does not have any shelter then we will give the donation money to others. </p>
-        <div>
-            <div>
-               <img src="" alt="nothing">
+        <div id="items">
+            <div class="items1">
+               <img src="icons/food.png" alt="nothing">
                <h4>Food for family</h4>
                <p>Erat est magna aliquyam sadipscing voluptua et aliquyam consetetur, et diam stet sit dolor sadipscing diam dolor vero kasd, sed.</p>
             </div>
-            <div>
-                <img src="" alt="nothing">
+            <div class="items2">
+                <img src="icons/shelter.png" alt="nothing">
                 <h4>Shelter for family</h4>
                 <p>Would dear ungodly fall this were high. Birth their and dome or and her sighed open a. Fabled climes ere.</p>
             </div>
-            <div>
-                <img src="" alt="nothing">
+            <div class="items3">
+                <img src="icons/Frame-1.png" alt="nothing">
                 <h4>Education for family</h4>
                 <p>Désire pussent anglais ou revé les du de les, le serpents frele grappin pôles nuits quelque me, a les bruns.</p>
             </div>
@@ -61,15 +64,15 @@
 
     <section id="fourth-section">
 
-        <div>
+        <div id="extra-part">
             <div>
              <h2>They Also Deserve To Be Happy</h2>
-             <p>We can easily spreads happiness amonge them with our litter donation.They are also human being like us.They don;t deserve to live like this.</p>
+             <p>We can easily spreads happiness amonge them with our litter donation.They are also human being like us.They don't deserve to live like this.</p>
              <button class="donate-btn">How To Contribute?</button>
             
             </div>
             <div>
-                <img src="" alt="nothing to show">
+                <img src="images/donation9.jpg" alt="nothing to show">
             </div>
         </div>
 
@@ -81,11 +84,11 @@
         <h2>Get My Updates</h2>
         <p>Estus cxar do ke rabajxon ili boaton la estas. Junulon kaj fari tiel la kiuj, sed sed kaj lin mangxos..</p>
         
-        <div>
-            <fieldset>
+        <div id="form">
+            <fieldset id="field">
                 <form>
-                    <input type="email">
-                    <button type="submit">Subscribe</button>
+                    <input type="email" id="email" placeholder="Email...">
+                    <button type="submit" id="submit-btn">Subscribe</button>
                 </form>
             </fieldset>
         </div>
